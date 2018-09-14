@@ -1,6 +1,6 @@
 <template>
  <div id="app">
-    <img src="./assets/logo.png">
+    <img src="https://clarerodri.github.io/Vue-lastfm/assets/logo.png">
     <h1>PlatziMusic</h1>
     <select v-model="selectedCountry">
       <option v-for="cont in countries" v-bind:value="cont.value">{{cont.name}}</option>
